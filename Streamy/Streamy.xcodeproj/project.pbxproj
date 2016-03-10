@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC1EEC051C8A150600E9915B /* AMServer.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1EEC041C8A150600E9915B /* AMServer.m */; };
+		EC781BB91C88AC880003D468 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC781BB81C88AC880003D468 /* AppDelegate.m */; };
+		EC781BBC1C88AC880003D468 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC781BBB1C88AC880003D468 /* main.m */; };
+		EC781BBF1C88AC880003D468 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC781BBE1C88AC880003D468 /* ViewController.m */; };
+		EC781BC11C88AC880003D468 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC781BC01C88AC880003D468 /* Assets.xcassets */; };
+		EC781BC41C88AC880003D468 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC781BC21C88AC880003D468 /* Main.storyboard */; };
+		EC781BCF1C88AC890003D468 /* StreamyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC781BCE1C88AC890003D468 /* StreamyTests.m */; };
+		EC781BDB1C88B45E0003D468 /* StreamManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EC781BDA1C88B45E0003D468 /* StreamManager.m */; };
+		F73C0254BCCD661946F5CF87 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D6C4D4F33C2E8EBFAC470C7 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC781BCB1C88AC890003D468 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC781BAC1C88AC880003D468 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC781BB31C88AC880003D468;
+			remoteInfo = Streamy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D6C4D4F33C2E8EBFAC470C7 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2147FC201A833B285F29CADC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		EC1EEC031C8A150600E9915B /* AMServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMServer.h; path = Helper/AMServer.h; sourceTree = "<group>"; };
+		EC1EEC041C8A150600E9915B /* AMServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMServer.m; path = Helper/AMServer.m; sourceTree = "<group>"; };
+		EC781BB41C88AC880003D468 /* Streamy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Streamy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC781BB71C88AC880003D468 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC781BB81C88AC880003D468 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC781BBB1C88AC880003D468 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC781BBD1C88AC880003D468 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EC781BBE1C88AC880003D468 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EC781BC01C88AC880003D468 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC781BC31C88AC880003D468 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC781BC51C88AC880003D468 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC781BCA1C88AC890003D468 /* StreamyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StreamyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC781BCE1C88AC890003D468 /* StreamyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StreamyTests.m; sourceTree = "<group>"; };
+		EC781BD01C88AC890003D468 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC781BD91C88B45E0003D468 /* StreamManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StreamManager.h; path = Helper/StreamManager.h; sourceTree = "<group>"; };
+		EC781BDA1C88B45E0003D468 /* StreamManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StreamManager.m; path = Helper/StreamManager.m; sourceTree = "<group>"; };
+		F27A3FFC86CB220968455FF4 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC781BB11C88AC880003D468 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F73C0254BCCD661946F5CF87 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC781BC71C88AC890003D468 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B86B0730941CBE1B800BA66 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2147FC201A833B285F29CADC /* Pods.debug.xcconfig */,
+				F27A3FFC86CB220968455FF4 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BDCAA29A33ECDC409303F934 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D6C4D4F33C2E8EBFAC470C7 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC781BAB1C88AC880003D468 = {
+			isa = PBXGroup;
+			children = (
+				EC781BB61C88AC880003D468 /* Streamy */,
+				EC781BCD1C88AC890003D468 /* StreamyTests */,
+				EC781BB51C88AC880003D468 /* Products */,
+				2B86B0730941CBE1B800BA66 /* Pods */,
+				BDCAA29A33ECDC409303F934 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EC781BB51C88AC880003D468 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC781BB41C88AC880003D468 /* Streamy.app */,
+				EC781BCA1C88AC890003D468 /* StreamyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC781BB61C88AC880003D468 /* Streamy */ = {
+			isa = PBXGroup;
+			children = (
+				EC781BDC1C88B4620003D468 /* Helper */,
+				EC781BDD1C88B4750003D468 /* ViewControllers */,
+				EC781BC01C88AC880003D468 /* Assets.xcassets */,
+				EC781BC21C88AC880003D468 /* Main.storyboard */,
+				EC781BC51C88AC880003D468 /* Info.plist */,
+				EC781BBA1C88AC880003D468 /* Supporting Files */,
+			);
+			path = Streamy;
+			sourceTree = "<group>";
+		};
+		EC781BBA1C88AC880003D468 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC781BB71C88AC880003D468 /* AppDelegate.h */,
+				EC781BB81C88AC880003D468 /* AppDelegate.m */,
+				EC781BBB1C88AC880003D468 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC781BCD1C88AC890003D468 /* StreamyTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC781BCE1C88AC890003D468 /* StreamyTests.m */,
+				EC781BD01C88AC890003D468 /* Info.plist */,
+			);
+			path = StreamyTests;
+			sourceTree = "<group>";
+		};
+		EC781BDC1C88B4620003D468 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				EC781BD91C88B45E0003D468 /* StreamManager.h */,
+				EC781BDA1C88B45E0003D468 /* StreamManager.m */,
+				EC1EEC031C8A150600E9915B /* AMServer.h */,
+				EC1EEC041C8A150600E9915B /* AMServer.m */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		EC781BDD1C88B4750003D468 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EC781BBD1C88AC880003D468 /* ViewController.h */,
+				EC781BBE1C88AC880003D468 /* ViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC781BB31C88AC880003D468 /* Streamy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC781BD31C88AC890003D468 /* Build configuration list for PBXNativeTarget "Streamy" */;
+			buildPhases = (
+				2CC06DF12417C7D0AA2A1643 /* Check Pods Manifest.lock */,
+				EC781BB01C88AC880003D468 /* Sources */,
+				EC781BB11C88AC880003D468 /* Frameworks */,
+				EC781BB21C88AC880003D468 /* Resources */,
+				B9B3BEB3B0B2D148723417A9 /* Embed Pods Frameworks */,
+				68C82538199742A787D68254 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Streamy;
+			productName = Streamy;
+			productReference = EC781BB41C88AC880003D468 /* Streamy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC781BC91C88AC890003D468 /* StreamyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC781BD61C88AC890003D468 /* Build configuration list for PBXNativeTarget "StreamyTests" */;
+			buildPhases = (
+				EC781BC61C88AC890003D468 /* Sources */,
+				EC781BC71C88AC890003D468 /* Frameworks */,
+				EC781BC81C88AC890003D468 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC781BCC1C88AC890003D468 /* PBXTargetDependency */,
+			);
+			name = StreamyTests;
+			productName = StreamyTests;
+			productReference = EC781BCA1C88AC890003D468 /* StreamyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC781BAC1C88AC880003D468 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Arthur Myronenko";
+				TargetAttributes = {
+					EC781BB31C88AC880003D468 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					EC781BC91C88AC890003D468 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = EC781BB31C88AC880003D468;
+					};
+				};
+			};
+			buildConfigurationList = EC781BAF1C88AC880003D468 /* Build configuration list for PBXProject "Streamy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC781BAB1C88AC880003D468;
+			productRefGroup = EC781BB51C88AC880003D468 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC781BB31C88AC880003D468 /* Streamy */,
+				EC781BC91C88AC890003D468 /* StreamyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC781BB21C88AC880003D468 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC781BC11C88AC880003D468 /* Assets.xcassets in Resources */,
+				EC781BC41C88AC880003D468 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC781BC81C88AC890003D468 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2CC06DF12417C7D0AA2A1643 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		68C82538199742A787D68254 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9B3BEB3B0B2D148723417A9 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC781BB01C88AC880003D468 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC781BBF1C88AC880003D468 /* ViewController.m in Sources */,
+				EC781BDB1C88B45E0003D468 /* StreamManager.m in Sources */,
+				EC1EEC051C8A150600E9915B /* AMServer.m in Sources */,
+				EC781BBC1C88AC880003D468 /* main.m in Sources */,
+				EC781BB91C88AC880003D468 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC781BC61C88AC890003D468 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC781BCF1C88AC890003D468 /* StreamyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC781BCC1C88AC890003D468 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC781BB31C88AC880003D468 /* Streamy */;
+			targetProxy = EC781BCB1C88AC890003D468 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC781BC21C88AC880003D468 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC781BC31C88AC880003D468 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC781BD11C88AC890003D468 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EC781BD21C88AC890003D468 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EC781BD41C88AC890003D468 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2147FC201A833B285F29CADC /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Streamy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = arthurmyronenko.Streamy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC781BD51C88AC890003D468 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F27A3FFC86CB220968455FF4 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Streamy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = arthurmyronenko.Streamy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EC781BD71C88AC890003D468 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = StreamyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = arthurmyronenko.StreamyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Streamy.app/Contents/MacOS/Streamy";
+			};
+			name = Debug;
+		};
+		EC781BD81C88AC890003D468 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = StreamyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = arthurmyronenko.StreamyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Streamy.app/Contents/MacOS/Streamy";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC781BAF1C88AC880003D468 /* Build configuration list for PBXProject "Streamy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC781BD11C88AC890003D468 /* Debug */,
+				EC781BD21C88AC890003D468 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC781BD31C88AC890003D468 /* Build configuration list for PBXNativeTarget "Streamy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC781BD41C88AC890003D468 /* Debug */,
+				EC781BD51C88AC890003D468 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC781BD61C88AC890003D468 /* Build configuration list for PBXNativeTarget "StreamyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC781BD71C88AC890003D468 /* Debug */,
+				EC781BD81C88AC890003D468 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC781BAC1C88AC880003D468 /* Project object */;
+}

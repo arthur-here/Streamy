@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.js"></script>
+    <script>
+    var socket = io.connect();
+
+    socket.on("image_update", function() {
+      var d = new Date();
+      $("#image").prop("src", "/image.jpg?timestamp"+d.getTime());
+    });
+    </script>
+  </head>
+  <body>
+    <img id="image" src="image.jpg" />
+    <div id="text"></div>
+  </body>
+</html>

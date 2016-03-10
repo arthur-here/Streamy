@@ -670,15 +670,15 @@
             <objects>
                 <viewController id="XfG-lQ-9wD" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" id="m2S-Jp-Qdl">
-                        <rect key="frame" x="0.0" y="0.0" width="351" height="185"/>
+                        <rect key="frame" x="0.0" y="0.0" width="351" height="231"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="C9u-Ub-iMW">
-                                <rect key="frame" x="20" y="20" width="311" height="145"/>
+                                <rect key="frame" x="20" y="20" width="311" height="150"/>
                                 <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" id="8Dh-d2-aZP"/>
                             </imageView>
                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="7Pt-LP-olw">
-                                <rect key="frame" x="14" y="137" width="70" height="32"/>
+                                <rect key="frame" x="14" y="183" width="70" height="32"/>
                                 <buttonCell key="cell" type="push" title="Start" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="ze2-RC-GXU">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -688,7 +688,7 @@
                                 </connections>
                             </button>
                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Fzs-1v-LIl">
-                                <rect key="frame" x="14" y="104" width="70" height="32"/>
+                                <rect key="frame" x="90" y="183" width="69" height="32"/>
                                 <buttonCell key="cell" type="push" title="Stop" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="IR6-Cv-3uB">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -699,14 +699,13 @@
                             </button>
                         </subviews>
                         <constraints>
-                            <constraint firstItem="Fzs-1v-LIl" firstAttribute="leading" secondItem="7Pt-LP-olw" secondAttribute="leading" id="5bv-gj-Bwi"/>
+                            <constraint firstItem="Fzs-1v-LIl" firstAttribute="leading" secondItem="7Pt-LP-olw" secondAttribute="trailing" constant="18" id="FLJ-To-rVe"/>
                             <constraint firstAttribute="bottom" secondItem="C9u-Ub-iMW" secondAttribute="bottom" constant="20" symbolic="YES" id="J9G-di-epJ"/>
                             <constraint firstItem="7Pt-LP-olw" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="20" id="S1k-YX-wxm"/>
-                            <constraint firstItem="Fzs-1v-LIl" firstAttribute="trailing" secondItem="7Pt-LP-olw" secondAttribute="trailing" id="UHv-kx-kfD"/>
+                            <constraint firstItem="C9u-Ub-iMW" firstAttribute="top" secondItem="7Pt-LP-olw" secondAttribute="bottom" constant="20" symbolic="YES" id="Tg8-dv-Zih"/>
+                            <constraint firstItem="Fzs-1v-LIl" firstAttribute="baseline" secondItem="7Pt-LP-olw" secondAttribute="baseline" id="XQt-sX-NSE"/>
                             <constraint firstItem="7Pt-LP-olw" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="20" id="Z2o-ww-Wya"/>
                             <constraint firstAttribute="trailing" secondItem="C9u-Ub-iMW" secondAttribute="trailing" constant="20" symbolic="YES" id="iC4-WR-cDE"/>
-                            <constraint firstItem="C9u-Ub-iMW" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="20" id="ojY-4P-pDO"/>
-                            <constraint firstItem="Fzs-1v-LIl" firstAttribute="top" secondItem="7Pt-LP-olw" secondAttribute="bottom" constant="12" id="uM6-qE-ZKR"/>
                             <constraint firstItem="C9u-Ub-iMW" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="20" id="uS1-zo-Zke"/>
                         </constraints>
                     </view>
@@ -716,7 +715,7 @@
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="75.5" y="635.5"/>
+            <point key="canvasLocation" x="75.5" y="658.5"/>
         </scene>
     </scenes>
 </document>

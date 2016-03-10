@@ -55,7 +55,7 @@ const httpServer = http.createServer((request, response) => {
       response.end();
   }
 });
-httpServer.listen(8000);
+httpServer.listen(8000, '0.0.0.0');
 
 const io = require('socket.io').listen(httpServer);
 
